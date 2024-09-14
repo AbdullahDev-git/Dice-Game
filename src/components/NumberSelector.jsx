@@ -36,6 +36,7 @@ align-items: end;
         display: flex;
         gap: 24px;
     }
+
     p{
         font-size: 24px;
         font-weight: bold;
@@ -57,4 +58,10 @@ const Box = styled.div`
 
    background-color: ${(props)=> (props.isSelected ? "black" : "white")};
    color:${(props)=> (props.isSelected ? "white" : "black")} ;
+
+
+    &:hover{
+   background-color: black;
+   color: white;
+}
 `

@@ -25,5 +25,6 @@ margin-top: 30px;
 
     p{
         font-size: 24px;
+        font-weight: 600;
     }
 `
