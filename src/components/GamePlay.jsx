@@ -72,7 +72,8 @@ export default GamePlay
 
 
 const MainContainer = styled.main`
-padding: 30px;
+padding: 55px;
+
     .top_section{
         display: flex;
         align-items: end;
