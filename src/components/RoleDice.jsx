@@ -5,7 +5,7 @@
   return (
     <DiceContainer>
         <div className="dice"  onClick={roleDice}>
-            <img src={`/public/dice_${currentDice}.png`} alt="" />
+            <img src={`/public/images/dice_${currentDice}.png`} alt="" />
         </div>
         <p>Click on Dice to roll</p>
     </DiceContainer>
